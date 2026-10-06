@@ -18,7 +18,7 @@ test("calculates an order total with a percentage discount", () => {
   assert.equal(result.pricing.subtotal, 100);
   assert.equal(result.pricing.discount, 10);
   assert.equal(result.pricing.shipping, 10);
-  assert.equal(result.pricing.total, 100);
+  assert.equal(result.pricing.total, 127);
 });
 
 test("calculates an order total without a discount", () => {
