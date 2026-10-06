@@ -12,7 +12,7 @@ function buildOrderResponse(order) {
 
   const total = calculateTotal(
     subtotal,
-    order.discount,
+    discount,
     shippingCost
   );
 
